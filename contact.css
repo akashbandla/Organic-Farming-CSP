@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navigation a{
+    text-decoration: none;
+    color: black;
+    padding: 0 2rem;
+}
+.hero{
+    height: 80vh;
+    background: url('./gallery/bg6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.d-flex a:hover{
+   color: green;
+}
+.text1{
+    font-family: 'Qwigley', cursive;
+    margin-bottom: 0;
+}
+.profile{
+    margin-top: 10rem;
+}
+.text2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.text3{
+    width: 50%;
+}
+.pic{
+    width: 200px;
+}
+.img-fluid{
+    border-radius: 50%;
+    transition: all;
+}
+.layer{
+    height:20vh;
+    background: url('./gallery/page-title-layer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top:60px;
+}
+@media(max-width:570px){
+    .d-flex>.faq{
+        display: none;
+
+    }
+    a.fs-4{
+        padding-right:75%;
+    }
+    .fixed-top{
+        background-color:#9FE2BF;
+    }
+    .navigation a{
+        padding: 0 1rem;
+    }
+}
